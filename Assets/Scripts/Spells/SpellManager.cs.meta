@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c110fa9cacfa9b47a8401e0b6a6ea6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - effectPartStorage: {fileID: 11400000, guid: e5f96523886acfc41879c14bac6b08ca, type: 2}
+  - formPartStorage: {fileID: 11400000, guid: 6eeb89006dcddf643817d0aab6739df3, type: 2}
+  - powerPartFactory: {fileID: 11400000, guid: b298df9afef671a4dae530e1959160ff, type: 2}
+  - positionsPartFactory: {fileID: 11400000, guid: e348ca94e729bfb4e9ce7b2ff38d9ab2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cec810ad4f836e4892bd3f42535f3e0, type: 3}
+  m_Name: FormStorage
+  m_EditorClassIdentifier: 
+  spellParts:
+  - _info:
+      title: Instant
+      description: Spell will be casted immediately and will have permanent effect
+      icon: {fileID: 21300000, guid: c67625fb69e1e644c915ec2f48366abb, type: 3}
+      spellNamePiece: instant
+    _baseManaCost: 2
+    _multiplierManaCost: 1
+    _formName: 0
+    _formValue: 0
+  - _info:
+      title: Sligthly delayed
+      description: Spell will be casted after 1 turn will pass and will have permanent
+        effect
+      icon: {fileID: 21300000, guid: 53226da35d205e64aa7a1b6671e5203c, type: 3}
+      spellNamePiece: Delayed
+    _baseManaCost: 1
+    _multiplierManaCost: 1
+    _formName: 1
+    _formValue: 2
+  - _info:
+      title: Delayed
+      description: Spell will be casted after 2 turn will pass and will have permanent
+        effect
+      icon: {fileID: 21300000, guid: 53226da35d205e64aa7a1b6671e5203c, type: 3}
+      spellNamePiece: Delayed
+    _baseManaCost: 0
+    _multiplierManaCost: 1
+    _formName: 1
+    _formValue: 3
+  - _info:
+      title: Double
+      description: Spell will be casted during next 2 turns
+      icon: {fileID: 21300000, guid: b123bdad4f47a734c80135e456f2d162, type: 3}
+      spellNamePiece: Repeating
+    _baseManaCost: 3
+    _multiplierManaCost: 1
+    _formName: 2
+    _formValue: 2
+  - _info:
+      title: Triple
+      description: Spell will be casted during next 3 turns
+      icon: {fileID: 21300000, guid: b123bdad4f47a734c80135e456f2d162, type: 3}
+      spellNamePiece: Repeating
+    _baseManaCost: 4
+    _multiplierManaCost: 1
+    _formName: 2
+    _formValue: 3
+  - _info:
+      title: Quartet
+      description: Spell will be casted during next 4 turns
+      icon: {fileID: 21300000, guid: b123bdad4f47a734c80135e456f2d162, type: 3}
+      spellNamePiece: Repeating
+    _baseManaCost: 5
+    _multiplierManaCost: 1
+    _formName: 2
+    _formValue: 4

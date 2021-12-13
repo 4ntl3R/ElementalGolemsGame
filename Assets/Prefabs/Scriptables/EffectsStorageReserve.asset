@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f377ac53119dd4eaaeb878c30de380, type: 3}
+  m_Name: EffectsStorageReserve
+  m_EditorClassIdentifier: 
+  spellParts:
+  - _info:
+      title: Slow down
+      description: Reduces initiative of goal
+      icon: {fileID: 21300000, guid: e691198d56e3a1848b5009e1ff94dbb5, type: 3}
+      spellNamePiece: slowing
+    _baseManaCost: 0.5
+    _multiplierManaCost: 1
+    _effectName: 2
+  - _info:
+      title: Speed up
+      description: Recovers initiative of goal
+      icon: {fileID: 21300000, guid: 0e7966e8857d9da42bd7ac9668f85ce2, type: 3}
+      spellNamePiece: acceleration
+    _baseManaCost: 0.5
+    _multiplierManaCost: 1
+    _effectName: 5
